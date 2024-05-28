@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    font-family: "Poetsen One", sans-serif;
+padding: 0;
+margin: 0;
+a{
+    font-size: 40px;
+    color: rgba(71, 49, 8, 0.704)
+}
+.CONTAINER{
+    background-color: rgb(100, 51, 57);
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.logo{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    font-size: 10px;
+        color: #a13434fb;
+        border: 100px;
+        justify-content: center;
+        background-color: white;
+
+}
+
+.photos{
+    
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 10px;
+    
+}
